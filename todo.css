@@ -1,0 +1,73 @@
+/* .task{
+    cursor: pointer;
+}
+.completed{
+    text-decoration:line-through;
+}
+.input{
+    background-color:lightslategrey;
+    text-align: center;
+    margin-top: 100px;
+    width: 400px;
+    margin-left: 250px;
+    display: flex;
+}
+input{
+    flex:1;
+}
+.list{
+    background-color: lightseagreen;
+    display: flex;
+    margin-left: 250px;
+} */
+
+
+/* slide.js */
+
+.total{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    /* height: 100vh; */
+    overflow: hidden;
+    height: 300px;
+    width: 500px;
+}
+.image figure{
+    position: relative;
+    width:400%;
+    margin: 0;
+    left: 0;
+    animation: 20s slid infinite;
+}
+.image figure img{
+    width: 25%;
+    height: 300px;
+    float: right;
+}
+@keyframes slid{
+    20%{
+        left: -100%;
+    }
+    25%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    55%{
+        left: -200%;
+    }
+    70%{
+        left: -300%;
+    }
+    75%{
+        left: -300%;
+    }
+    100%{
+        left: 0%;
+    } 
+}

@@ -1,0 +1,252 @@
+/* .task{
+    cursor: pointer;
+}
+.complete{
+    text-decoration: line-through;
+} */
+/* ***************************************** */
+/* *{
+    margin: 0;
+    width: 100vw;
+}
+.click{
+    display: flex;
+}
+.imgs{
+    position: relative;
+    display: flex;
+    width: 100vw;
+    margin-top: 100px;
+    margin-left:50px;
+    overflow: hidden;
+}
+img{
+    padding: 20px 70px;
+    max-width:250px;
+}
+.arrow{
+    margin-top: 185px;
+    border: 1px solid;
+    height: 21px;
+    width: 30px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.back{
+    background-color: lightseagreen;
+} */
+/* *********************** */
+*{
+ margin: 0;   
+}
+.top{
+    display: flex;
+    align-items: center;
+    background-color:rgb(253, 252, 250);
+    /* padding-left: 20px; */
+}
+.youtube{
+    max-width: 100px;
+    height: 70px;
+}
+/* hr{
+    font-size: 1px;
+    width: 800px;
+} */
+.my{
+    width: 46px;
+    height: 47px;
+    border-radius: 30px;
+}
+.menu,.video,.bell,.app{
+    font-size: 30px;
+}
+.search{
+    font-size: 15px;
+}
+.d1{
+    margin-left: 30px;
+}
+ .d2,.d3,.d5,.d6,.d7,.d8{
+    margin-left: 30px;
+    cursor: pointer;
+}.d4{
+    width: 30px;
+    margin-left: 17px;
+    cursor: pointer;
+}
+.d3{
+    border-right:1px solid rgb(173, 172, 172) ;
+}
+.top2{
+    margin-left: 169px;
+    /* margin-right: 150px; */
+    /* width: 580px; */
+}
+ 
+.mic{
+    margin: 0 120px 0 20px;
+    cursor: pointer;
+}
+input{
+    width: 500px;
+    height: 40px;
+    outline: none;
+    border: none;
+}
+form{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(180, 178, 178);
+
+}
+.hide{
+    display: flex;
+}
+.n1,.n2,.n3,.n4,.n5{
+    display: none;
+    background-color: rgb(165, 163, 163);
+}
+.d5:hover .n1{
+  display: block;
+}
+.invisible{
+    display: none;
+}
+.visible{
+    display: block;
+    position:fixed;
+    top:5px;
+    right: 65px;
+    max-height: 30px;
+    font-size: 20px;
+    padding: 0 8px;
+    border-radius: 40px;
+    width: fit-content;
+    background-color: red;
+    text-align: center;
+}
+.appshow{
+    display: block;
+    position: fixed;
+    right: 0px;
+    top: 75px;
+    /* padding: 10px; */
+    /* z-index: 3; */
+    background-color: rgb(247, 240, 240);
+}
+.apps{
+    display: none;
+}
+.aps:hover{
+    background-color: rgb(165, 163, 163) ;
+}
+.aps{
+    font-size: 20px;
+    padding: 10px 30px;
+
+}
+
+
+
+/* ******************************** */
+
+
+
+.div1{
+    display: flex;
+    font-size: 15px;
+}
+.active{
+    background-color: rgb(202, 198, 198);
+}
+.div1:hover{
+background-color: rgb(202, 198, 198);
+}
+.ic{
+    padding:10px
+}
+.link{
+    text-decoration:none;
+    display: inherit;
+    color: black;
+}
+.his{
+    margin-left:200px;
+    padding: 20px;
+}
+.part{
+    padding: 10px;
+}
+.side{
+    visibility: visible;
+    /* position: fixed; */
+    width: 200px;
+    height: 700px;
+    /* position: relative; */
+   /* bottom: 0px; */
+}
+.side:hover{
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+.list{
+    /* margin-left: 200px; */
+    margin-left: 10px;
+    position: sticky;
+    display: flex;
+    top:74px;
+    overflow: hidden;
+    transition: 1s;
+    /* z-index: 1; */
+    background-color:rgb(252, 250, 248);
+    /* width: 1190px; */
+    height: 50px;
+    border-bottom: 1px solid rgb(207, 205, 205);
+    border-top: 1px solid rgb(207, 205, 205);
+}
+.vid{
+    visibility: hidden;
+    /* transition: 1s; */
+
+}
+.videos{
+    /* width: 1200px; */
+    /* margin-left: 200px; */
+    display: flex;
+    flex-wrap: wrap;
+    /* position: absolute; */
+}
+.v1{
+    padding: 10px 10px;
+}
+/* li{ */
+    /* list-style: none; */
+/* } */
+.list1{
+    background-color: rgb(189, 186, 186);
+    padding: 5px;
+    /* display: flex; */
+    margin-top: 10px;
+    margin-right: 20px;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: fit-content;
+    height: 20px;
+    overflow: hidden;
+    list-style: none;
+}
+.completed{
+    background-color: blue;
+}
+.center{
+    margin-left: 190px;
+    transition: 1s;
+
+  }
+  .side3{
+    margin-left: 0;
+    transition: 1s;
+
+  }
